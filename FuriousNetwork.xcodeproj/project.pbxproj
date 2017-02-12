@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B67640043EB4E0DC36C6BA8 /* Pods_FuriousNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AED03EF5A69551A9F07BC9 /* Pods_FuriousNetwork.framework */; };
+		6D2175001E4A1D8700741CC9 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2174FF1E4A1D8700741CC9 /* CircleView.swift */; };
+		6D3298DE1E476F6300338FC9 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3298DD1E476F6300338FC9 /* FeedVC.swift */; };
+		6D36605B1E43610200C56868 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D36605A1E43610200C56868 /* FancyView.swift */; };
+		6D36605F1E43619600C56868 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D36605E1E43619600C56868 /* Constants.swift */; };
+		6D3660611E4363B700C56868 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3660601E4363B700C56868 /* RoundButton.swift */; };
+		6D3660631E43654500C56868 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3660621E43654500C56868 /* FancyField.swift */; };
+		6D3660651E43667700C56868 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3660641E43667700C56868 /* FancyBtn.swift */; };
+		6D36DA401E49E21C0021FFC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D36DA3F1E49E21C0021FFC1 /* GoogleService-Info.plist */; };
+		6D3819941E4F441400D83C83 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3819931E4F441400D83C83 /* Post.swift */; };
+		6D531A521E4C9E0E00E2CA3A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D531A511E4C9E0E00E2CA3A /* PostCell.swift */; };
+		6D531A551E4CBC6A00E2CA3A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D531A541E4CBC6A00E2CA3A /* DataService.swift */; };
 		6D55C4821E40ED18001CC606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D55C4811E40ED18001CC606 /* AppDelegate.swift */; };
-		6D55C4841E40ED18001CC606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D55C4831E40ED18001CC606 /* ViewController.swift */; };
+		6D55C4841E40ED18001CC606 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D55C4831E40ED18001CC606 /* SignInVC.swift */; };
 		6D55C4871E40ED18001CC606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D55C4851E40ED18001CC606 /* Main.storyboard */; };
 		6D55C48A1E40ED18001CC606 /* FuriousNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D55C4881E40ED18001CC606 /* FuriousNetwork.xcdatamodeld */; };
 		6D55C48C1E40ED18001CC606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D55C48B1E40ED18001CC606 /* Assets.xcassets */; };
@@ -16,14 +28,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09AED03EF5A69551A9F07BC9 /* Pods_FuriousNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FuriousNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E91CD2E96326630DF1A3428 /* Pods-FuriousNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuriousNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-FuriousNetwork/Pods-FuriousNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		6D2174FF1E4A1D8700741CC9 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		6D3298DD1E476F6300338FC9 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		6D36605A1E43610200C56868 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		6D36605E1E43619600C56868 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6D3660601E4363B700C56868 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		6D3660621E43654500C56868 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		6D3660641E43667700C56868 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		6D3660661E43797300C56868 /* FuriousNetwork.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FuriousNetwork.entitlements; sourceTree = "<group>"; };
+		6D36DA3F1E49E21C0021FFC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6D3819931E4F441400D83C83 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		6D531A511E4C9E0E00E2CA3A /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		6D531A541E4CBC6A00E2CA3A /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		6D55C47E1E40ED18001CC606 /* FuriousNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuriousNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D55C4811E40ED18001CC606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D55C4831E40ED18001CC606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D55C4831E40ED18001CC606 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInVC.swift; path = FuriousNetwork/SignInVC.swift; sourceTree = "<group>"; };
 		6D55C4861E40ED18001CC606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D55C4891E40ED18001CC606 /* FuriousNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FuriousNetwork.xcdatamodel; sourceTree = "<group>"; };
 		6D55C48B1E40ED18001CC606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D55C48E1E40ED18001CC606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D55C4901E40ED18001CC606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF46FDBA021FFDFDDD97E334 /* Pods-FuriousNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FuriousNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FuriousNetwork/Pods-FuriousNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +58,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B67640043EB4E0DC36C6BA8 /* Pods_FuriousNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D36605C1E43617F00C56868 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				6D36605E1E43619600C56868 /* Constants.swift */,
+			);
+			name = Util;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6D531A531E4CBC4F00E2CA3A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6D531A541E4CBC6A00E2CA3A /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		6D55C4751E40ED18001CC606 = {
 			isa = PBXGroup;
 			children = (
 				6D55C4801E40ED18001CC606 /* FuriousNetwork */,
 				6D55C47F1E40ED18001CC606 /* Products */,
+				F6E61780C93FF19218A6C459 /* Pods */,
+				84CA01B667E8D6E2931C4199 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,71 @@
 		6D55C4801E40ED18001CC606 /* FuriousNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				6D531A531E4CBC4F00E2CA3A /* Services */,
+				6D3660661E43797300C56868 /* FuriousNetwork.entitlements */,
+				6D55C4981E40F132001CC606 /* Model */,
+				6D55C4991E40F13B001CC606 /* View */,
+				6D55C49A1E40F143001CC606 /* Controller */,
+				6D36605C1E43617F00C56868 /* Util */,
 				6D55C4811E40ED18001CC606 /* AppDelegate.swift */,
-				6D55C4831E40ED18001CC606 /* ViewController.swift */,
 				6D55C4851E40ED18001CC606 /* Main.storyboard */,
 				6D55C48B1E40ED18001CC606 /* Assets.xcassets */,
+				6D36DA3F1E49E21C0021FFC1 /* GoogleService-Info.plist */,
 				6D55C48D1E40ED18001CC606 /* LaunchScreen.storyboard */,
 				6D55C4901E40ED18001CC606 /* Info.plist */,
 				6D55C4881E40ED18001CC606 /* FuriousNetwork.xcdatamodeld */,
 			);
 			path = FuriousNetwork;
+			sourceTree = "<group>";
+		};
+		6D55C4981E40F132001CC606 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D3819931E4F441400D83C83 /* Post.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6D55C4991E40F13B001CC606 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D36605A1E43610200C56868 /* FancyView.swift */,
+				6D3660601E4363B700C56868 /* RoundButton.swift */,
+				6D3660621E43654500C56868 /* FancyField.swift */,
+				6D3660641E43667700C56868 /* FancyBtn.swift */,
+				6D2174FF1E4A1D8700741CC9 /* CircleView.swift */,
+				6D531A511E4C9E0E00E2CA3A /* PostCell.swift */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6D55C49A1E40F143001CC606 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D55C4831E40ED18001CC606 /* SignInVC.swift */,
+				6D3298DD1E476F6300338FC9 /* FeedVC.swift */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		84CA01B667E8D6E2931C4199 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09AED03EF5A69551A9F07BC9 /* Pods_FuriousNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6E61780C93FF19218A6C459 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF46FDBA021FFDFDDD97E334 /* Pods-FuriousNetwork.debug.xcconfig */,
+				4E91CD2E96326630DF1A3428 /* Pods-FuriousNetwork.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D55C4931E40ED18001CC606 /* Build configuration list for PBXNativeTarget "FuriousNetwork" */;
 			buildPhases = (
+				AC637ADAF4A19B0C2046BECA /* [CP] Check Pods Manifest.lock */,
 				6D55C47A1E40ED18001CC606 /* Sources */,
 				6D55C47B1E40ED18001CC606 /* Frameworks */,
 				6D55C47C1E40ED18001CC606 /* Resources */,
+				3AA9068897516CFEE5C174B9 /* [CP] Embed Pods Frameworks */,
+				74FD047B72B739760E882D77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,7 +205,16 @@
 				TargetAttributes = {
 					6D55C47D1E40ED18001CC606 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 77ZCVN8VS2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D55C48F1E40ED18001CC606 /* LaunchScreen.storyboard in Resources */,
+				6D36DA401E49E21C0021FFC1 /* GoogleService-Info.plist in Resources */,
 				6D55C48C1E40ED18001CC606 /* Assets.xcassets in Resources */,
 				6D55C4871E40ED18001CC606 /* Main.storyboard in Resources */,
 			);
@@ -134,13 +250,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AA9068897516CFEE5C174B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuriousNetwork/Pods-FuriousNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74FD047B72B739760E882D77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FuriousNetwork/Pods-FuriousNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC637ADAF4A19B0C2046BECA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D55C47A1E40ED18001CC606 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D55C4841E40ED18001CC606 /* ViewController.swift in Sources */,
+				6D3298DE1E476F6300338FC9 /* FeedVC.swift in Sources */,
+				6D3660611E4363B700C56868 /* RoundButton.swift in Sources */,
+				6D36605F1E43619600C56868 /* Constants.swift in Sources */,
+				6D531A551E4CBC6A00E2CA3A /* DataService.swift in Sources */,
+				6D3819941E4F441400D83C83 /* Post.swift in Sources */,
+				6D55C4841E40ED18001CC606 /* SignInVC.swift in Sources */,
 				6D55C4821E40ED18001CC606 /* AppDelegate.swift in Sources */,
+				6D36605B1E43610200C56868 /* FancyView.swift in Sources */,
+				6D2175001E4A1D8700741CC9 /* CircleView.swift in Sources */,
+				6D3660631E43654500C56868 /* FancyField.swift in Sources */,
+				6D531A521E4C9E0E00E2CA3A /* PostCell.swift in Sources */,
+				6D3660651E43667700C56868 /* FancyBtn.swift in Sources */,
 				6D55C48A1E40ED18001CC606 /* FuriousNetwork.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,6 +359,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -234,6 +409,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -260,8 +436,13 @@
 		};
 		6D55C4941E40ED18001CC606 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF46FDBA021FFDFDDD97E334 /* Pods-FuriousNetwork.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FuriousNetwork/FuriousNetwork.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 77ZCVN8VS2;
 				INFOPLIST_FILE = FuriousNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = omri.king.FuriousNetwork;
@@ -272,8 +453,13 @@
 		};
 		6D55C4951E40ED18001CC606 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E91CD2E96326630DF1A3428 /* Pods-FuriousNetwork.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FuriousNetwork/FuriousNetwork.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 77ZCVN8VS2;
 				INFOPLIST_FILE = FuriousNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = omri.king.FuriousNetwork;
@@ -301,6 +487,7 @@
 				6D55C4951E40ED18001CC606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
